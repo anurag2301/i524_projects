@@ -10,7 +10,7 @@ class Mycmd(cmd.Cmd):
 
       def help_deploy(self):
               print('\n'.join([
-                      'Deploy',
+                      'deploy',
                       'Deploy help.'
               ]))
 
@@ -19,7 +19,7 @@ class Mycmd(cmd.Cmd):
 
       def help_kill(self):
               print('\n'.join([
-                      'Kill',
+                      'kill',
                       'Kill help.'
               ]))
 
@@ -28,7 +28,7 @@ class Mycmd(cmd.Cmd):
 
       def help_benchmark(self):
               print('\n'.join([
-                      'Benchmark',
+                      'benchmark',
                       'Benchmark help.'
               ]))
 
