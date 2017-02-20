@@ -1,0 +1,12 @@
+from __future__ import division, print_funtion
+import numpy as np
+import pandas as pd
+import matplotlib.python as plt
+
+data = dt.read_csv('2016-first-quarter-citations.csv')
+type(data)
+data.index
+data.columns
+data.dtypes
+data.shape
+
